@@ -8,8 +8,8 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "7ab558aeb40f3ab4")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "6c2700e8189e84bb")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.5")]
 
 
 // FILE: models.generated.cs
@@ -94,7 +94,7 @@ namespace Umbraco.Web.PublishedContentModels
 
 	/// <summary>Pages</summary>
 	[PublishedContentModel("page")]
-	public partial class Page : PublishedContentModel, IFooter, IHeader
+	public partial class Page : PublishedContentModel, IFooter, IHeader, INewsletterItem
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "page";
@@ -157,7 +157,7 @@ namespace Umbraco.Web.PublishedContentModels
 		/// Logo Url
 		///</summary>
 		[ImplementPropertyType("logoUrl")]
-		public string LogoUrl
+		public IPublishedContent LogoUrl
 		{
 			get { return Umbraco.Web.PublishedContentModels.Header.GetLogoUrl(this); }
 		}
@@ -178,6 +178,24 @@ namespace Umbraco.Web.PublishedContentModels
 		public IEnumerable<IPublishedContent> SocialMedias
 		{
 			get { return Umbraco.Web.PublishedContentModels.Header.GetSocialMedias(this); }
+		}
+
+		///<summary>
+		/// Subtext
+		///</summary>
+		[ImplementPropertyType("subtext")]
+		public string Subtext
+		{
+			get { return Umbraco.Web.PublishedContentModels.NewsletterItem.GetSubtext(this); }
+		}
+
+		///<summary>
+		/// Title
+		///</summary>
+		[ImplementPropertyType("title")]
+		public string Title
+		{
+			get { return Umbraco.Web.PublishedContentModels.NewsletterItem.GetTitle(this); }
 		}
 	}
 
@@ -312,6 +330,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Short Description: Add your short description to show in thumbnail
+		///</summary>
+		[ImplementPropertyType("shortDescription")]
+		public string ShortDescription
+		{
+			get { return this.GetPropertyValue<string>("shortDescription"); }
+		}
+
+		///<summary>
 		/// Tags
 		///</summary>
 		[ImplementPropertyType("tags")]
@@ -350,7 +377,7 @@ namespace Umbraco.Web.PublishedContentModels
 		string LogoText { get; }
 
 		/// <summary>Logo Url</summary>
-		string LogoUrl { get; }
+		IPublishedContent LogoUrl { get; }
 
 		/// <summary>Navbar</summary>
 		IEnumerable<IPublishedContent> Navbar { get; }
@@ -412,13 +439,13 @@ namespace Umbraco.Web.PublishedContentModels
 		/// Logo Url
 		///</summary>
 		[ImplementPropertyType("logoUrl")]
-		public string LogoUrl
+		public IPublishedContent LogoUrl
 		{
 			get { return GetLogoUrl(this); }
 		}
 
 		/// <summary>Static getter for Logo Url</summary>
-		public static string GetLogoUrl(IHeader that) { return that.GetPropertyValue<string>("logoUrl"); }
+		public static IPublishedContent GetLogoUrl(IHeader that) { return that.GetPropertyValue<IPublishedContent>("logoUrl"); }
 
 		///<summary>
 		/// Navbar
@@ -591,15 +618,26 @@ namespace Umbraco.Web.PublishedContentModels
 		/// Navbar Url
 		///</summary>
 		[ImplementPropertyType("navbarUrl")]
-		public string NavbarUrl
+		public IPublishedContent NavbarUrl
 		{
-			get { return this.GetPropertyValue<string>("navbarUrl"); }
+			get { return this.GetPropertyValue<IPublishedContent>("navbarUrl"); }
 		}
+	}
+
+	// Mixin content Type 1099 with alias "newsletterItem"
+	/// <summary>Newsletter Item</summary>
+	public partial interface INewsletterItem : IPublishedContent
+	{
+		/// <summary>Subtext</summary>
+		string Subtext { get; }
+
+		/// <summary>Title</summary>
+		string Title { get; }
 	}
 
 	/// <summary>Newsletter Item</summary>
 	[PublishedContentModel("newsletterItem")]
-	public partial class NewsletterItem : PublishedContentModel
+	public partial class NewsletterItem : PublishedContentModel, INewsletterItem
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "newsletterItem";
@@ -628,8 +666,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("subtext")]
 		public string Subtext
 		{
-			get { return this.GetPropertyValue<string>("subtext"); }
+			get { return GetSubtext(this); }
 		}
+
+		/// <summary>Static getter for Subtext</summary>
+		public static string GetSubtext(INewsletterItem that) { return that.GetPropertyValue<string>("subtext"); }
 
 		///<summary>
 		/// Title
@@ -637,8 +678,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("title")]
 		public string Title
 		{
-			get { return this.GetPropertyValue<string>("title"); }
+			get { return GetTitle(this); }
 		}
+
+		/// <summary>Static getter for Title</summary>
+		public static string GetTitle(INewsletterItem that) { return that.GetPropertyValue<string>("title"); }
 	}
 
 	/// <summary>Blog Category Item</summary>
@@ -706,6 +750,32 @@ namespace Umbraco.Web.PublishedContentModels
 #pragma warning restore 0109
 
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<BlogCategories, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+	}
+
+	/// <summary>Language</summary>
+	[PublishedContentModel("english")]
+	public partial class English : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "english";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public English(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<English, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
