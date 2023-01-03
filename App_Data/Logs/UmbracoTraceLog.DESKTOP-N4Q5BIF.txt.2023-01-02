@@ -1,0 +1,1031 @@
+﻿ 2023-01-02 00:24:01,264 [P428/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.4 application starting on DESKTOP-N4Q5BIF
+ 2023-01-02 00:24:01,313 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2023-01-02 00:24:01,324 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2023-01-02 00:24:01,390 [P428/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2023-01-02 00:24:01,395 [P428/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2023-01-02 00:24:01,398 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 00:24:01,600 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 201ms)
+ 2023-01-02 00:24:01,600 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2023-01-02 00:24:01,606 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 5ms)
+ 2023-01-02 00:24:01,627 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 00:24:01,628 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 00:24:01,628 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2023-01-02 00:24:01,633 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 5ms)
+ 2023-01-02 00:24:01,634 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 00:24:01,634 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 00:24:01,634 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2023-01-02 00:24:01,640 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 5ms)
+ 2023-01-02 00:24:01,656 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 00:24:01,657 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 00:24:01,657 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2023-01-02 00:24:01,663 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 5ms)
+ 2023-01-02 00:24:01,663 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 00:24:01,664 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 00:24:01,664 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2023-01-02 00:24:01,669 [P428/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 5ms)
+ 2023-01-02 00:24:03,632 [P428/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2023-01-02 00:24:04,129 [P428/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2023-01-02 00:24:04,231 [P428/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2023-01-02 00:24:04,319 [P428/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2023-01-02 00:24:04,349 [P428/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3214ms)
+ 2023-01-02 00:24:04,650 [P428/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost/umbraco
+ 2023-01-02 00:24:04,653 [P428/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost/umbraco (UmbracoModule request)
+ 2023-01-02 00:24:04,653 [P428/D2/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost/umbraco (UmbracoModule request)
+ 2023-01-02 00:24:05,018 [P428/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2023-01-02 00:24:05,072 [P428/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2023-01-02 00:24:06,221 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 00:24:06,221 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 00:24:06,221 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2023-01-02 00:24:06,227 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 5ms)
+ 2023-01-02 00:24:08,628 [P428/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 00:24:12,507 [P428/D2/T7] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 00:24:23,024 [P428/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 00:24:23,024 [P428/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 00:24:23,024 [P428/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2023-01-02 00:24:23,032 [P428/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 7ms)
+ 2023-01-02 00:24:23,179 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 00:24:23,179 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 00:24:23,179 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2023-01-02 00:24:23,185 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 6ms)
+ 2023-01-02 00:25:05,160 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 00:25:05,160 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 00:25:05,160 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2023-01-02 00:25:05,176 [P428/D2/T6] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 8ms)
+ 2023-01-02 00:25:05,207 [P428/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2023-01-01 00:25:05
+ 2023-01-02 00:25:09,433 [P428/D2/T19] ERROR Umbraco.Web.Scheduling.KeepAlive - Failed (at "http://localhost/umbraco").
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:80
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Umbraco.Web.Scheduling.KeepAlive.<PerformRunAsync>d__4.MoveNext()
+ 2023-01-02 00:29:43,291 [P428/D2/T48] ERROR Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Task has failed
+System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = D:\dotnet\umbraco\BlogSiteWithUmbraco\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass20_0.<ExecuteAction>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   at Umbraco.Core.Persistence.Database.<Query>d__74`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Sync.DatabaseServerMessenger.ProcessDatabaseInstructions()
+   at Umbraco.Core.Sync.DatabaseServerMessenger.Sync()
+   at Umbraco.Web.BatchedDatabaseServerMessenger.InstructionProcessing.PerformRun()
+   at Umbraco.Web.Scheduling.RecurringTaskBase.Run()
+   at Umbraco.Web.Scheduling.BackgroundTaskRunner`1.<RunAsync>d__40.MoveNext()
+ 2023-01-02 00:30:13,530 [P428/D2/T17] ERROR Umbraco.Web.Scheduling.KeepAlive - Failed (at "http://localhost/umbraco").
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:80
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Umbraco.Web.Scheduling.KeepAlive.<PerformRunAsync>d__4.MoveNext()
+ 2023-01-02 10:01:26,825 [P3648/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.4 application starting on DESKTOP-N4Q5BIF
+ 2023-01-02 10:01:26,873 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2023-01-02 10:01:26,893 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 20ms)
+ 2023-01-02 10:01:26,951 [P3648/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2023-01-02 10:01:26,956 [P3648/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2023-01-02 10:01:26,958 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:01:27,266 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 307ms)
+ 2023-01-02 10:01:27,266 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2023-01-02 10:01:27,267 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
+ 2023-01-02 10:01:27,357 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:01:27,358 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:01:27,358 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2023-01-02 10:01:27,358 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2023-01-02 10:01:27,359 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:01:27,359 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:01:27,359 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2023-01-02 10:01:27,361 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2023-01-02 10:01:27,374 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:01:27,374 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:01:27,375 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2023-01-02 10:01:27,375 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2023-01-02 10:01:27,375 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:01:27,376 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:01:27,376 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2023-01-02 10:01:27,376 [P3648/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2023-01-02 10:01:30,075 [P3648/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2023-01-02 10:01:30,710 [P3648/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2023-01-02 10:01:30,819 [P3648/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2023-01-02 10:01:31,151 [P3648/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2023-01-02 10:01:31,247 [P3648/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4629ms)
+ 2023-01-02 10:01:34,114 [P3648/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost/umbraco
+ 2023-01-02 10:01:34,116 [P3648/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost/umbraco (UmbracoModule request)
+ 2023-01-02 10:01:34,116 [P3648/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost/umbraco (UmbracoModule request)
+ 2023-01-02 10:01:34,614 [P3648/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2023-01-02 10:01:34,681 [P3648/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2023-01-02 10:01:35,811 [P3648/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:01:35,811 [P3648/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:01:35,812 [P3648/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2023-01-02 10:01:35,812 [P3648/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2023-01-02 10:01:36,497 [P3648/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 10:01:44,203 [P3648/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:01:44,204 [P3648/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:01:44,204 [P3648/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2023-01-02 10:01:44,204 [P3648/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2023-01-02 10:01:44,353 [P3648/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:01:44,353 [P3648/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:01:44,353 [P3648/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2023-01-02 10:01:44,354 [P3648/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2023-01-02 10:01:58,506 [P3648/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username aishiteru1509@gmail.com from IP address ::1
+ 2023-01-02 10:02:08,519 [P3648/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username aishiteru1509@gmail.com from IP address ::1
+ 2023-01-02 10:02:11,706 [P3648/D2/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username aishiteru1509@gmail.com from IP address ::1
+ 2023-01-02 10:02:22,135 [P3648/D2/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username aishiteru1509@gmail.com from IP address ::1
+ 2023-01-02 10:02:22,135 [P3648/D2/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: aishiteru1509@gmail.com logged in from IP address ::1
+ 2023-01-02 10:02:22,907 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:02:22,907 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:02:22,907 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2023-01-02 10:02:22,920 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 14ms)
+ 2023-01-02 10:02:22,936 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:02:22,936 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:02:22,936 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2023-01-02 10:02:22,936 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2023-01-02 10:02:22,936 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:02:22,936 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:02:22,936 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2023-01-02 10:02:22,953 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 10ms)
+ 2023-01-02 10:02:22,984 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:02:22,984 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:02:22,984 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2023-01-02 10:02:22,993 [P3648/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 8ms)
+ 2023-01-02 10:02:23,186 [P3648/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 10:02:23,186 [P3648/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 10:02:23,186 [P3648/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2023-01-02 10:02:23,186 [P3648/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2023-01-02 10:02:34,805 [P3648/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2023-01-01 10:02:34
+ 2023-01-02 10:12:52,053 [P3648/D2/T100] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 10:12:52,328 [P3648/D2/T94] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 10:13:13,060 [P3648/D2/T101] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:11:09,448 [P2304/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.4 application starting on DESKTOP-N4Q5BIF
+ 2023-01-02 13:11:09,471 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2023-01-02 13:11:09,478 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2023-01-02 13:11:09,533 [P2304/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2023-01-02 13:11:09,534 [P2304/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2023-01-02 13:11:09,536 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:09,572 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 35ms)
+ 2023-01-02 13:11:09,572 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2023-01-02 13:11:09,573 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 0ms)
+ 2023-01-02 13:11:09,598 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:09,599 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:09,599 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2023-01-02 13:11:09,599 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2023-01-02 13:11:09,600 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:09,600 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:09,600 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2023-01-02 13:11:09,601 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2023-01-02 13:11:09,615 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:09,616 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:09,616 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2023-01-02 13:11:09,616 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2023-01-02 13:11:09,617 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:09,617 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:09,617 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2023-01-02 13:11:09,617 [P2304/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2023-01-02 13:11:11,305 [P2304/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2023-01-02 13:11:11,686 [P2304/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2023-01-02 13:11:11,803 [P2304/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2023-01-02 13:11:11,894 [P2304/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2023-01-02 13:11:11,924 [P2304/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2553ms)
+ 2023-01-02 13:11:12,211 [P2304/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://dev.blogsite-umb.com:80/umbraco
+ 2023-01-02 13:11:12,213 [P2304/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://dev.blogsite-umb.com:80/umbraco (UmbracoModule request)
+ 2023-01-02 13:11:12,681 [P2304/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2023-01-02 13:11:12,685 [P2304/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2023-01-02 13:11:12,955 [P2304/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:11:18,415 [P2304/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:18,415 [P2304/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:18,415 [P2304/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2023-01-02 13:11:18,416 [P2304/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2023-01-02 13:11:18,699 [P2304/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:18,699 [P2304/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:18,699 [P2304/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2023-01-02 13:11:18,700 [P2304/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2023-01-02 13:11:18,804 [P2304/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:18,805 [P2304/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:18,805 [P2304/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2023-01-02 13:11:18,805 [P2304/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2023-01-02 13:11:35,277 [P2304/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username aishiteru1509@gmail.com from IP address 127.0.0.1
+ 2023-01-02 13:11:35,277 [P2304/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: aishiteru1509@gmail.com logged in from IP address 127.0.0.1
+ 2023-01-02 13:11:35,762 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:35,762 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:35,762 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2023-01-02 13:11:35,762 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 0ms)
+ 2023-01-02 13:11:35,794 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:35,795 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:35,795 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2023-01-02 13:11:35,796 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2023-01-02 13:11:35,798 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:35,798 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:35,799 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2023-01-02 13:11:35,799 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2023-01-02 13:11:35,813 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:35,814 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:35,814 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2023-01-02 13:11:35,814 [P2304/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2023-01-02 13:11:36,003 [P2304/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 13:11:36,004 [P2304/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 13:11:36,004 [P2304/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2023-01-02 13:11:36,019 [P2304/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 14ms)
+ 2023-01-02 13:11:54,628 [P2304/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:11:55,012 [P2304/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:11:57,672 [P2304/D2/T7] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:12:04,989 [P2304/D2/T7] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:12:12,773 [P2304/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2023-01-01 13:12:12
+ 2023-01-02 13:17:14,816 [P2304/D2/T72] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:17:15,326 [P2304/D2/T70] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:21:12,007 [P2304/D2/T57] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:23:17,388 [P2304/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:23:17,843 [P2304/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:23:35,662 [P2304/D2/T96] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:29:05,412 [P2304/D2/T101] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:29:05,736 [P2304/D2/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:29:20,837 [P2304/D2/T141] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:29:34,670 [P2304/D2/T131] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:30:23,854 [P2304/D2/T145] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:30:24,309 [P2304/D2/T143] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:30:38,144 [P2304/D2/T147] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:30:45,469 [P2304/D2/T150] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:31:19,673 [P2304/D2/T150] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: aishiteru1509@gmail.com, IP Address: 127.0.0.1
+ 2023-01-02 13:32:01,037 [P2304/D2/T154] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:32:01,450 [P2304/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:36:44,936 [P2304/D2/T191] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:48:53,498 [P2304/D2/T287] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:48:53,793 [P2304/D2/T294] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:49:32,708 [P2304/D2/T289] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:50:29,792 [P2304/D2/T280] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:55:41,096 [P2304/D2/T277] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:55:41,551 [P2304/D2/T288] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:56:11,789 [P2304/D2/T273] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:58:06,938 [P2304/D2/T246] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username aishiteru1509@gmail.com from IP address 127.0.0.1
+ 2023-01-02 13:58:11,894 [P2304/D2/T228] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username aishiteru1509@gmail.com from IP address 127.0.0.1
+ 2023-01-02 13:58:11,894 [P2304/D2/T228] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: aishiteru1509@gmail.com logged in from IP address 127.0.0.1
+ 2023-01-02 13:58:18,988 [P2304/D2/T247] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:58:19,287 [P2304/D2/T228] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:58:22,813 [P2304/D2/T246] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:58:37,976 [P2304/D2/T246] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 13:58:38,004 [P2304/D2/T228] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:14:59,412 [P2304/D2/T183] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:14:59,744 [P2304/D2/T21] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:16:37,957 [P2304/D2/T31] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:17:04,038 [P2304/D2/T31] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:17:04,494 [P2304/D2/T31] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:17:26,034 [P2304/D2/T48] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:17:52,681 [P2304/D2/T31] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: aishiteru1509@gmail.com, IP Address: 127.0.0.1
+ 2023-01-02 14:17:58,680 [P2304/D2/T50] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: aishiteru1509@gmail.com, IP Address: 127.0.0.1
+ 2023-01-02 14:22:34,735 [P2304/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:22:34,999 [P2304/D2/T60] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:23:25,097 [P2304/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:25:59,298 [P2304/D2/T329] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:26:00,118 [P2304/D2/T322] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:26:19,669 [P2304/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:27:08,316 [P2304/D2/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:27:08,712 [P2304/D2/T332] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:27:32,898 [P2304/D2/T84] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:28:39,294 [P2304/D2/T85] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:28:39,557 [P2304/D2/T74] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:29:04,587 [P2304/D2/T63] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:30:49,089 [P2304/D2/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:30:49,505 [P2304/D2/T79] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:30:56,861 [P2304/D2/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:32:15,431 [P2304/D2/T88] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:32:16,889 [P2304/D2/T86] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:32:23,326 [P2304/D2/T112] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:32:33,555 [P2304/D2/T38] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:32:50,512 [P2304/D2/T30] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:32:50,790 [P2304/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:32:52,299 [P2304/D2/T87] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:34:22,553 [P2304/D2/T92] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://dev.blogsite-umb.com/umbraco
+ 2023-01-02 14:34:22,554 [P2304/D2/T92] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://dev.blogsite-umb.com/umbraco (UmbracoModule request)
+ 2023-01-02 14:44:56,359 [P2304/D2/T208] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username aishiteru1509@gmail.com from IP address 127.0.0.1
+ 2023-01-02 14:44:56,360 [P2304/D2/T208] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: aishiteru1509@gmail.com logged in from IP address 127.0.0.1
+ 2023-01-02 14:45:07,629 [P2304/D2/T169] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:45:07,904 [P2304/D2/T209] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:45:19,157 [P2304/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:45:46,608 [P2304/D2/T217] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:50:27,553 [P2304/D2/T239] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:50:28,060 [P2304/D2/T251] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:50:36,849 [P2304/D2/T251] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:51:34,767 [P2304/D2/T268] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:51:35,250 [P2304/D2/T272] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:51:41,261 [P2304/D2/T272] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:52:59,513 [P2304/D2/T266] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:52:59,934 [P2304/D2/T308] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:53:12,812 [P2304/D2/T251] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:57:09,135 [P2304/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:59:19,566 [P2304/D2/T182] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:59:19,983 [P2304/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 14:59:34,617 [P2304/D2/T166] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:00:07,200 [P2304/D2/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:00:07,477 [P2304/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:00:28,683 [P2304/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:00:28,697 [P2304/D2/T159] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:00:29,138 [P2304/D2/T159] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:01:27,193 [P2304/D2/T141] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:02:13,979 [P2304/D2/T141] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:02:14,455 [P2304/D2/T146] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:03:17,269 [P2304/D2/T139] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:03:55,077 [P2304/D2/T136] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:03:55,339 [P2304/D2/T128] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:03:59,660 [P2304/D2/T128] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:04:02,128 [P2304/D2/T136] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:04:02,626 [P2304/D2/T139] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:04:05,758 [P2304/D2/T136] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:04:31,691 [P2304/D2/T105] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: aishiteru1509@gmail.com, IP Address: 127.0.0.1
+ 2023-01-02 15:04:41,622 [P2304/D2/T105] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:10:42,976 [P2304/D2/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:10:43,261 [P2304/D2/T33] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:10:56,506 [P2304/D2/T33] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:15:03,184 [P2304/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:15:03,455 [P2304/D2/T328] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 15:15:40,485 [P2304/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:03:28,035 [P2304/D2/T86] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username aishiteru1509@gmail.com from IP address 127.0.0.1
+ 2023-01-02 17:03:35,859 [P2304/D2/T30] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username aishiteru1509@gmail.com from IP address 127.0.0.1
+ 2023-01-02 17:03:35,860 [P2304/D2/T30] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: aishiteru1509@gmail.com logged in from IP address 127.0.0.1
+ 2023-01-02 17:03:47,226 [P2304/D2/T95] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:03:47,675 [P2304/D2/T30] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:03:54,128 [P2304/D2/T88] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:05:32,857 [P2304/D2/T112] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:05:33,267 [P2304/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:06:59,145 [P2304/D2/T55] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:06:59,169 [P2304/D2/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:06:59,524 [P2304/D2/T47] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:08:47,940 [P2304/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:10:49,915 [P2304/D2/T63] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:10:50,279 [P2304/D2/T217] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:11:47,690 [P2304/D2/T325] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:11:47,707 [P2304/D2/T108] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:11:48,068 [P2304/D2/T108] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:12:43,981 [P2304/D2/T184] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:13:50,948 [P2304/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:13:51,279 [P2304/D2/T207] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:14:15,016 [P2304/D2/T120] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:16:10,153 [P2304/D2/T115] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:16:10,159 [P2304/D2/T127] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:16:10,619 [P2304/D2/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:17:23,767 [P2304/D2/T115] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:17:24,133 [P2304/D2/T114] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:17:47,957 [P2304/D2/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:17:48,308 [P2304/D2/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:18:24,152 [P2304/D2/T138] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:18:24,634 [P2304/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:19:41,028 [P2304/D2/T138] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:19:41,897 [P2304/D2/T180] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:19:47,389 [P2304/D2/T149] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:20:16,522 [P2304/D2/T152] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:21:18,036 [P2304/D2/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:22:41,462 [P2304/D2/T125] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:22:41,910 [P2304/D2/T120] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:22:53,995 [P2304/D2/T125] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:23:07,403 [P2304/D2/T120] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:23:08,073 [P2304/D2/T158] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: aishiteru1509@gmail.com, IP Address: 127.0.0.1
+ 2023-01-02 17:23:10,557 [P2304/D2/T104] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:23:11,995 [P2304/D2/T120] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:23:13,686 [P2304/D2/T158] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: aishiteru1509@gmail.com, IP Address: 127.0.0.1
+ 2023-01-02 17:23:32,483 [P2304/D2/T120] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:23:32,876 [P2304/D2/T120] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:23:34,321 [P2304/D2/T120] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:24:02,900 [P2304/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:24:03,299 [P2304/D2/T208] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:24:04,366 [P2304/D2/T149] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:24:30,998 [P2304/D2/T104] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:24:31,330 [P2304/D2/T210] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:24:34,061 [P2304/D2/T120] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:24:45,886 [P2304/D2/T120] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:24:46,201 [P2304/D2/T206] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:25:20,861 [P2304/D2/T220] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:27:08,023 [P2304/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:27:10,744 [P2304/D2/T219] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:27:26,532 [P2304/D2/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username aishiteru1509@gmail.com from IP address 127.0.0.1
+ 2023-01-02 17:27:26,532 [P2304/D2/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: aishiteru1509@gmail.com logged in from IP address 127.0.0.1
+ 2023-01-02 17:27:29,770 [P2304/D2/T37] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:27:39,005 [P2304/D2/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:27:57,886 [P2304/D2/T37] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:28:00,706 [P2304/D2/T108] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:28:19,396 [P2304/D2/T78] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:28:21,417 [P2304/D2/T55] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:28:33,489 [P2304/D2/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:28:49,184 [P2304/D2/T75] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:28:49,437 [P2304/D2/T70] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:29:06,959 [P2304/D2/T53] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:30:11,378 [P2304/D2/T325] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:30:29,346 [P2304/D2/T78] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:39:14,316 [P2304/D2/T320] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:39:25,092 [P2304/D2/T327] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:41:04,072 [P2304/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:41:12,981 [P2304/D2/T158] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:41:28,887 [P2304/D2/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:43:45,274 [P2304/D2/T149] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:47:19,682 [P2304/D2/T153] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: aishiteru1509@gmail.com, IP Address: 127.0.0.1
+ 2023-01-02 17:54:25,830 [P2304/D2/T235] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:54:49,647 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2023-01-02 17:54:49,647 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2023-01-02 17:54:49,647 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2023-01-02 17:54:49,647 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2023-01-02 17:54:49,647 [P2304/D2/T205] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2023-01-02 17:54:49,647 [P2304/D2/T244] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2023-01-02 17:54:49,647 [P2304/D2/T246] INFO  Umbraco.Core.MainDom - Stopping...
+ 2023-01-02 17:54:49,663 [P2304/D2/T246] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2023-01-02 17:54:49,663 [P2304/D2/T246] INFO  Umbraco.Web.ExamineStartup - Complete (took 9ms)
+ 2023-01-02 17:54:49,663 [P2304/D2/T246] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2023-01-02 17:54:49,663 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2023-01-02 17:54:49,663 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2023-01-02 17:54:49,679 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2023-01-02 17:54:49,679 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2023-01-02 17:54:49,679 [P2304/D2/T245] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2023-01-02 17:54:49,679 [P2304/D2/T237] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2023-01-02 17:54:49,679 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2023-01-02 17:54:49,679 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2023-01-02 17:54:49,679 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2023-01-02 17:54:49,694 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2023-01-02 17:54:49,694 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2023-01-02 17:54:49,694 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2023-01-02 17:54:49,694 [P2304/D2/T142] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2023-01-02 17:54:49,694 [P2304/D2/T246] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2023-01-02 17:54:49,694 [P2304/D2/T142] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2023-01-02 17:54:54,859 [P2304/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.4 application starting on DESKTOP-N4Q5BIF
+ 2023-01-02 17:54:54,890 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2023-01-02 17:54:54,890 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 6ms)
+ 2023-01-02 17:54:54,937 [P2304/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2023-01-02 17:54:54,937 [P2304/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2023-01-02 17:54:54,937 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 17:54:54,984 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 51ms)
+ 2023-01-02 17:54:54,984 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2023-01-02 17:54:54,999 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2023-01-02 17:54:55,015 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 17:54:55,015 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 17:54:55,015 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2023-01-02 17:54:55,015 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2023-01-02 17:54:55,015 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 17:54:55,015 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 17:54:55,015 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2023-01-02 17:54:55,015 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2023-01-02 17:54:55,031 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 17:54:55,031 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 17:54:55,031 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2023-01-02 17:54:55,031 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2023-01-02 17:54:55,031 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 17:54:55,031 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 17:54:55,031 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2023-01-02 17:54:55,031 [P2304/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2023-01-02 17:54:56,472 [P2304/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2023-01-02 17:54:56,769 [P2304/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2023-01-02 17:54:56,863 [P2304/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2023-01-02 17:54:57,178 [P2304/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2023-01-02 17:54:57,209 [P2304/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2428ms)
+ 2023-01-02 17:54:57,574 [P2304/D3/T142] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://dev.blogsite-umb.com:80/umbraco
+ 2023-01-02 17:54:57,574 [P2304/D3/T142] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://dev.blogsite-umb.com:80/umbraco (UmbracoModule request)
+ 2023-01-02 17:55:06,699 [P2304/D3/T142] INFO  umbraco.content - Load Xml from file...
+ 2023-01-02 17:55:06,711 [P2304/D3/T142] INFO  umbraco.content - Loaded Xml from file.
+ 2023-01-02 17:55:06,960 [P2304/D3/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:55:08,417 [P2304/D3/T236] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 17:55:08,418 [P2304/D3/T236] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 17:55:08,418 [P2304/D3/T236] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2023-01-02 17:55:08,419 [P2304/D3/T236] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2023-01-02 17:55:10,682 [P2304/D3/T244] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:55:16,697 [P2304/D3/T232] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:55:19,774 [P2304/D2/T205] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 50 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2023-01-02 17:56:06,763 [P2304/D3/T6] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 17:56:06,763 [P2304/D3/T6] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 17:56:06,764 [P2304/D3/T6] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2023-01-02 17:56:06,764 [P2304/D3/T6] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2023-01-02 17:56:06,797 [P2304/D3/T250] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2023-01-01 17:56:06
+ 2023-01-02 17:58:07,591 [P2304/D3/T250] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 17:58:36,097 [P2304/D3/T241] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:00:34,751 [P2304/D3/T287] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:00:34,978 [P2304/D3/T292] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:03:30,554 [P2304/D3/T304] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:15:08,907 [P2304/D3/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:15:48,714 [P2304/D3/T55] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:17:02,505 [P2304/D3/T174] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:18:38,956 [P2304/D3/T145] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:18:39,292 [P2304/D3/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:18:53,346 [P2304/D3/T220] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:32:37,659 [P2304/D3/T34] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:39:56,505 [P2304/D3/T345] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:39:56,864 [P2304/D3/T339] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:40:06,820 [P2304/D3/T293] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:41:04,381 [P2304/D3/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:41:06,609 [P2304/D3/T347] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:42:04,754 [P2304/D3/T309] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:42:43,480 [P2304/D3/T359] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:42:43,873 [P2304/D3/T364] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:42:48,804 [P2304/D3/T335] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:43:05,827 [P2304/D3/T335] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:43:36,342 [P2304/D3/T357] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:43:36,770 [P2304/D3/T362] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:43:39,773 [P2304/D3/T361] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:47:45,114 [P2304/D3/T351] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:47:57,146 [P2304/D3/T364] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:48:21,883 [P2304/D3/T294] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:49:31,217 [P2304/D3/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:49:31,921 [P2304/D3/T80] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:52:01,568 [P2304/D3/T225] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:52:03,092 [P2304/D3/T94] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:52:04,197 [P2304/D3/T95] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:52:05,150 [P2304/D3/T334] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:52:21,257 [P2304/D3/T319] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:52:43,644 [P2304/D3/T92] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:52:45,697 [P2304/D3/T223] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:56:27,368 [P2304/D3/T118] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:56:29,235 [P2304/D3/T84] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:56:49,293 [P2304/D3/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 18:57:42,190 [P2304/D3/T225] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 19:02:20,968 [P2304/D3/T137] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username aishiteru1509@gmail.com from IP address 127.0.0.1
+ 2023-01-02 19:02:20,968 [P2304/D3/T137] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: aishiteru1509@gmail.com logged in from IP address 127.0.0.1
+ 2023-01-02 19:02:21,480 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:02:21,481 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:02:21,481 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2023-01-02 19:02:21,482 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 1ms)
+ 2023-01-02 19:02:21,721 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:02:21,721 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:02:21,721 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2023-01-02 19:02:21,721 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2023-01-02 19:02:21,736 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:02:21,737 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:02:21,737 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2023-01-02 19:02:21,737 [P2304/D3/T117] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2023-01-02 19:02:42,712 [P2304/D3/T170] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\6053b344\125176b\App_Web_blog.cshtml.65a2d1ee.l9pearkm.0.cs(44): error CS0234: The type or namespace name 'Blog' does not exist in the namespace 'Umbraco.Web.PublishedContentModels' (are you missing an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2023-01-02 19:03:32,962 [P2304/D3/T104] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_MasterLayout_cshtml.Execute() in d:\dotnet\umbraco\BlogSiteWithUmbraco\Views\MasterLayout.cshtml:line 29
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass40_0.<RenderPageCore>b__0(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2023-01-02 19:04:01,848 [P2304/D3/T127] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 19:04:09,351 [P2304/D3/T127] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 19:04:24,111 [P2304/D3/T217] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2023-01-02 19:06:21,987 [P2304/D3/T173] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:06:21,987 [P2304/D3/T173] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:06:21,987 [P2304/D3/T173] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2023-01-02 19:06:21,988 [P2304/D3/T173] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2023-01-02 19:06:22,098 [P2304/D3/T161] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:06:22,098 [P2304/D3/T161] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:06:22,098 [P2304/D3/T161] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2023-01-02 19:06:22,105 [P2304/D3/T161] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 6ms)
+ 2023-01-02 19:06:22,532 [P2304/D3/T217] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:06:22,533 [P2304/D3/T217] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:06:22,533 [P2304/D3/T217] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2023-01-02 19:06:22,534 [P2304/D3/T217] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2023-01-02 19:07:06,230 [P2304/D3/T220] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:07:06,230 [P2304/D3/T220] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:07:06,230 [P2304/D3/T220] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2023-01-02 19:07:06,231 [P2304/D3/T220] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 1ms)
+ 2023-01-02 19:08:09,710 [P2304/D3/T217] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:09:01,908 [P2304/D3/T25] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:09:43,780 [P2304/D3/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2023-01-02 19:09:43,780 [P2304/D3/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2023-01-02 19:09:43,780 [P2304/D3/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2023-01-02 19:09:43,780 [P2304/D3/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2023-01-02 19:11:59,300 [P2304/D3/T161] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:12:30,679 [P2304/D3/T162] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:13:00,484 [P2304/D3/T134] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:13:00,484 [P2304/D3/T134] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:13:00,484 [P2304/D3/T134] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2023-01-02 19:13:00,488 [P2304/D3/T134] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 3ms)
+ 2023-01-02 19:13:13,775 [P2304/D3/T176] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:13:26,075 [P2304/D3/T119] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:16:22,982 [P2304/D3/T113] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:16:22,982 [P2304/D3/T113] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:16:22,982 [P2304/D3/T113] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2023-01-02 19:16:22,982 [P2304/D3/T113] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 1ms)
+ 2023-01-02 19:18:36,829 [P2304/D3/T125] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:21:30,629 [P2304/D3/T170] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:22:09,015 [P2304/D3/T170] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:22:46,907 [P2304/D3/T83] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:22:46,907 [P2304/D3/T144] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:23:39,819 [P2304/D3/T178] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:24:00,071 [P2304/D3/T58] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:24:00,087 [P2304/D3/T93] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:24:02,982 [P2304/D3/T58] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:24:27,251 [P2304/D3/T25] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:24:30,492 [P2304/D3/T175] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:24:58,569 [P2304/D3/T78] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:25:37,795 [P2304/D3/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:25:52,219 [P2304/D3/T83] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:26:03,591 [P2304/D3/T220] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:26:05,352 [P2304/D3/T360] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:26:10,983 [P2304/D3/T352] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:27:00,095 [P2304/D3/T359] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:27:00,095 [P2304/D3/T359] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:27:00,095 [P2304/D3/T359] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2023-01-02 19:27:00,095 [P2304/D3/T359] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 2ms)
+ 2023-01-02 19:27:00,970 [P2304/D3/T357] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:27:01,083 [P2304/D3/T17] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2023-01-02 19:27:28,817 [P2304/D3/T241] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:27:46,568 [P2304/D3/T314] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:27:48,391 [P2304/D3/T299] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:27:50,838 [P2304/D3/T314] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:27:56,238 [P2304/D3/T299] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:27:56,244 [P2304/D3/T78] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:28:05,356 [P2304/D3/T314] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:28:05,356 [P2304/D3/T275] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:28:17,042 [P2304/D3/T238] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:28:27,710 [P2304/D3/T233] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:28:27,711 [P2304/D3/T314] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:28:30,792 [P2304/D3/T244] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:28:33,834 [P2304/D3/T233] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:29:14,043 [P2304/D3/T299] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:29:30,641 [P2304/D3/T241] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:29:30,768 [P2304/D3/T233] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:30:07,001 [P2304/D3/T236] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:30:22,671 [P2304/D3/T141] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:30:22,671 [P2304/D3/T234] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:30:25,825 [P2304/D3/T234] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:30:34,775 [P2304/D3/T141] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:30:39,566 [P2304/D3/T78] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:30:39,572 [P2304/D3/T152] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:30:44,328 [P2304/D3/T227] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:30:55,459 [P2304/D3/T234] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:30:55,465 [P2304/D3/T149] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:31:01,438 [P2304/D3/T146] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:31:09,809 [P2304/D3/T149] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:31:37,982 [P2304/D3/T146] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:31:48,706 [P2304/D3/T78] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:31:50,395 [P2304/D3/T236] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:31:50,408 [P2304/D3/T233] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:31:58,843 [P2304/D3/T78] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:32:02,541 [P2304/D3/T208] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:32:02,546 [P2304/D3/T141] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:32:08,305 [P2304/D3/T235] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:32:12,668 [P2304/D3/T141] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:32:12,683 [P2304/D3/T208] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:32:52,896 [P2304/D3/T139] INFO  umbraco.content - Loading content from database...
+ 2023-01-02 19:32:55,097 [P2304/D3/T244] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:32:57,052 [P2304/D3/T244] INFO  umbraco.content - Save Xml to file...
+ 2023-01-02 19:32:57,053 [P2304/D3/T244] INFO  umbraco.content - Saved Xml to file.
+ 2023-01-02 19:32:58,087 [P2304/D3/T78] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:32:59,201 [P2304/D3/T234] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:32:59,201 [P2304/D3/T244] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:33:00,686 [P2304/D3/T234] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:33:03,438 [P2304/D3/T139] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:33:41,337 [P2304/D3/T233] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:34:54,194 [P2304/D3/T141] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:34:54,323 [P2304/D3/T314] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:35:11,231 [P2304/D3/T141] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:35:12,430 [P2304/D3/T141] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:35:53,042 [P2304/D3/T338] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:35:55,545 [P2304/D3/T261] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:37:01,384 [P2304/D3/T337] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:37:16,154 [P2304/D3/T139] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:37:16,166 [P2304/D3/T337] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:37:25,755 [P2304/D3/T139] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:38:12,264 [P2304/D3/T359] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:38:13,864 [P2304/D3/T139] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:38:15,537 [P2304/D3/T287] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:38:31,351 [P2304/D3/T311] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:38:32,852 [P2304/D3/T311] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:38:32,852 [P2304/D3/T273] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:38:40,366 [P2304/D3/T335] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:38:41,517 [P2304/D3/T279] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:38:41,528 [P2304/D3/T273] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:38:56,344 [P2304/D3/T354] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:38:56,344 [P2304/D3/T273] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:38:58,430 [P2304/D3/T311] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:39:25,145 [P2304/D3/T293] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:39:25,150 [P2304/D3/T342] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:40:22,756 [P2304/D3/T335] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:40:36,287 [P2304/D3/T304] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:40:36,320 [P2304/D3/T357] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:40:36,329 [P2304/D3/T335] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:41:04,886 [P2304/D3/T309] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:41:04,886 [P2304/D3/T119] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:41:17,316 [P2304/D3/T108] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:41:17,316 [P2304/D3/T217] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:41:19,569 [P2304/D3/T285] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:41:19,569 [P2304/D3/T217] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:41:22,372 [P2304/D3/T119] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:42:02,997 [P2304/D3/T335] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:43:24,301 [P2304/D3/T101] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2023-01-02 19:44:23,338 [P2304/D3/T158] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:44:25,712 [P2304/D3/T205] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:44:25,724 [P2304/D3/T158] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:44:44,978 [P2304/D3/T125] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:45:04,867 [P2304/D3/T236] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:45:36,751 [P2304/D3/T241] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:45:49,449 [P2304/D3/T158] ERROR Umbraco.Core.UmbracoApplicationBase - Unhandled exception in AppDomain (terminating)
+System.Runtime.Serialization.SerializationException: Type is not resolved for member 'Umbraco.Core.Security.UmbracoBackOfficeIdentity,Umbraco.Core, Version=1.0.6674.12770, Culture=neutral, PublicKeyToken=null'.
+   at System.Web.Hosting.ApplicationManager.HostingEnvironmentShutdownInitiated(String appId, HostingEnvironment env)
+   at System.Web.Hosting.HostingEnvironment.RemoveThisAppDomainFromAppManagerTableOnce()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2023-01-02 19:46:09,300 [P11256/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.4 application starting on DESKTOP-N4Q5BIF
+ 2023-01-02 19:46:09,334 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2023-01-02 19:46:09,334 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 6ms)
+ 2023-01-02 19:46:09,402 [P11256/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2023-01-02 19:46:09,405 [P11256/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2023-01-02 19:46:09,407 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:09,462 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 55ms)
+ 2023-01-02 19:46:09,462 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2023-01-02 19:46:09,463 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2023-01-02 19:46:09,484 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:09,484 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:46:09,484 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2023-01-02 19:46:09,484 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2023-01-02 19:46:09,484 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:09,484 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:46:09,484 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2023-01-02 19:46:09,484 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2023-01-02 19:46:09,500 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:09,500 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:46:09,500 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2023-01-02 19:46:09,500 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2023-01-02 19:46:09,500 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:09,500 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:46:09,500 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2023-01-02 19:46:09,500 [P11256/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2023-01-02 19:46:11,102 [P11256/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2023-01-02 19:46:11,469 [P11256/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2023-01-02 19:46:11,569 [P11256/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2023-01-02 19:46:11,653 [P11256/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2023-01-02 19:46:11,686 [P11256/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2472ms)
+ 2023-01-02 19:46:11,686 [P11256/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index InternalMemberIndexSet to be unlocked since it was left in a locked state
+ 2023-01-02 19:46:11,686 [P11256/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index InternalIndexSet to be unlocked since it was left in a locked state
+ 2023-01-02 19:46:11,702 [P11256/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index ExternalIndexSet to be unlocked since it was left in a locked state
+ 2023-01-02 19:46:12,170 [P11256/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://dev.blogsite-umb.com:80/umbraco
+ 2023-01-02 19:46:12,187 [P11256/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://dev.blogsite-umb.com:80/umbraco (UmbracoModule request)
+ 2023-01-02 19:46:13,104 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:13,104 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:46:13,104 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2023-01-02 19:46:13,104 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2023-01-02 19:46:13,104 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:13,104 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:46:13,104 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2023-01-02 19:46:13,104 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2023-01-02 19:46:14,206 [P11256/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:14,206 [P11256/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:46:14,206 [P11256/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2023-01-02 19:46:14,206 [P11256/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2023-01-02 19:46:14,206 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:14,221 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:46:14,222 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2023-01-02 19:46:14,222 [P11256/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2023-01-02 19:46:14,571 [P11256/D2/T8] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:46:30,276 [P11256/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:30,276 [P11256/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:46:30,276 [P11256/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2023-01-02 19:46:30,276 [P11256/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 0ms)
+ 2023-01-02 19:46:30,338 [P11256/D2/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:46:37,982 [P11256/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:46:37,982 [P11256/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:46:37,982 [P11256/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2023-01-02 19:46:37,997 [P11256/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 0ms)
+ 2023-01-02 19:46:40,944 [P11256/D2/T15] INFO  umbraco.content - Load Xml from file...
+ 2023-01-02 19:46:40,947 [P11256/D2/T15] INFO  umbraco.content - Loaded Xml from file.
+ 2023-01-02 19:46:48,310 [P11256/D2/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:47:05,379 [P11256/D2/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:47:13,051 [P11256/D2/T19] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2023-01-01 19:47:12
+ 2023-01-02 19:47:27,847 [P11256/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:47:27,847 [P11256/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:47:27,847 [P11256/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2023-01-02 19:47:27,848 [P11256/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2023-01-02 19:47:54,084 [P11256/D2/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:48:10,804 [P11256/D2/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:48:13,118 [P11256/D2/T17] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:53:20,645 [P11256/D2/T84] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 19:53:20,646 [P11256/D2/T84] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 19:53:20,646 [P11256/D2/T84] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2023-01-02 19:53:20,647 [P11256/D2/T84] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 1ms)
+ 2023-01-02 19:53:39,860 [P11256/D2/T119] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 19:53:42,343 [P11256/D2/T117] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:55:00,976 [P11256/D2/T154] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 19:55:01,178 [P11256/D2/T155] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:39:14,498 [P11256/D2/T129] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username aishiteru1509@gmail.com from IP address 127.0.0.1
+ 2023-01-02 21:39:14,513 [P11256/D2/T129] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: aishiteru1509@gmail.com logged in from IP address 127.0.0.1
+ 2023-01-02 21:39:14,811 [P11256/D2/T109] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 21:39:14,811 [P11256/D2/T109] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 21:39:14,812 [P11256/D2/T109] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2023-01-02 21:39:14,812 [P11256/D2/T109] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2023-01-02 21:39:34,995 [P11256/D2/T160] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:39:35,001 [P11256/D2/T81] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:39:44,980 [P11256/D2/T171] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 21:39:49,676 [P11256/D2/T157] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:39:49,676 [P11256/D2/T30] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:39:51,732 [P11256/D2/T43] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 21:39:57,672 [P11256/D2/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:39:57,682 [P11256/D2/T81] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:41:52,781 [P11256/D2/T67] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:41:52,793 [P11256/D2/T129] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:48:37,838 [P11256/D2/T225] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:48:37,910 [P11256/D2/T232] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:48:40,217 [P11256/D2/T228] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:48:40,325 [P11256/D2/T219] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:53:42,253 [P11256/D2/T311] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 21:53:42,329 [P11256/D2/T258] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:03:24,344 [P11256/D2/T365] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:03:24,426 [P11256/D2/T373] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:13,953 [P11256/D2/T334] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:14,050 [P11256/D2/T344] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:26,753 [P11256/D2/T344] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:26,873 [P11256/D2/T337] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:26,899 [P11256/D2/T326] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:41,722 [P11256/D2/T334] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:41,812 [P11256/D2/T320] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:42,975 [P11256/D2/T317] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:44,911 [P11256/D2/T322] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:45,028 [P11256/D2/T330] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:12:45,063 [P11256/D2/T319] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2023-01-02 22:28:52,813 [P11256/D2/T156] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 22:48:19,692 [P11256/D2/T206] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: aishiteru1509@gmail.com, IP Address: 127.0.0.1
+ 2023-01-02 23:05:44,014 [P11256/D2/T375] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username aishiteru1509@gmail.com from IP address 127.0.0.1
+ 2023-01-02 23:05:44,014 [P11256/D2/T375] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: aishiteru1509@gmail.com logged in from IP address 127.0.0.1
+ 2023-01-02 23:13:53,837 [P11256/D2/T377] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 23:13:53,837 [P11256/D2/T377] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 23:13:53,837 [P11256/D2/T377] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2023-01-02 23:13:53,837 [P11256/D2/T377] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 1ms)
+ 2023-01-02 23:14:48,561 [P11256/D2/T27] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2023-01-02 23:14:48,704 [P11256/D2/T306] ERROR Umbraco.Web.Editors.HelpController - Unhandled controller exception occurred
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Umbraco.Web.Editors.HelpController.<GetContextHelpForPage>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ 2023-01-02 23:15:03,422 [P11256/D2/T318] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2023-01-02 23:15:03,445 [P11256/D2/T318] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2023-01-02 23:15:03,445 [P11256/D2/T318] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2023-01-02 23:15:03,446 [P11256/D2/T318] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2023-01-02 23:15:03,446 [P11256/D2/T318] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 0ms)
+ 2023-01-02 23:18:23,376 [P11256/D2/T22] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 23:18:47,710 [P11256/D2/T22] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2023-01-02 23:19:07,104 [P11256/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
