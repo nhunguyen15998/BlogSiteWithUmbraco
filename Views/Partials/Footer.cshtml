@@ -1,4 +1,7 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    var template = Model.Content.Site().FirstChild("templateSetting");
+}
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -6,7 +9,7 @@
                 <div class="copyright">
                     <p>
                         Copyright ©
-                        <span>@Model.Content.Site().GetPropertyValue("footerContent")</span>
+                        <span>@template.GetPropertyValue("footerContent")</span>
                     </p>
                 </div>
             </div>

@@ -1,35 +1,42 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     //var sliders = Model.Content.Site().FirstChild("blogs").Children("blogItem").Where(x => x.IsVisible());
-    var sliders = CurrentPage.Parent.Descendants("blogItem").Take(3); //currentpage used only on same context
+    //var sliders = CurrentPage.Parent.Descendants("blogItem").Take(3); //currentpage used only on same context
+    var sliders = Model.Content.FirstChild("sliders").Children("sliderItem").Where(x => x.IsVisible());
 }
 
 <div class="site-section">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            @for(var indicator = 0; indicator < sliders.Count(); indicator++) {
+                <li data-target="#carouselExampleCaptions" data-slide-to="@indicator" class='@(indicator == 0 ? "active" : "")'></li>
+            }
         </ol>
         <div class="carousel-inner">
             @foreach (var slider in sliders)
             {
-                var isActive = slider.Id == sliders.FirstOrDefault().Id ? true : false;
-                int thumbnailId = Int32.Parse(slider.Thumbnail.ToString());
+                @*var isActive = slider.Id == sliders.FirstOrDefault().Id ? true : false;
+                int thumbnailId = Int32.Parse(slider.Thumbnail.ToString());*@
+                var isActive = slider == sliders.First() ? true : false;
+                int thumbnailId = Int32.Parse(slider.GetPropertyValue("sliderImage").ToString());
                 <div class="carousel-item @(isActive ? "active" : "")">
                     <div class="container">
                         <div class="row bg-light half-post-entry" style="margin-right: 0px; margin-left: 0px;">
                             <div class="col-lg-6 col-md-12 p-0">
-                                <img src='@(slider.HasValue("Thumbnail") ? Umbraco.Media(thumbnailId).Url : "")' class="d-block w-100" height="400px"/ >
+                                @*<img src='@(slider.HasValue("Thumbnail") ? Umbraco.Media(thumbnailId).Url : "")' class="d-block w-100" height="400px"/ >*@
+                                <img src='@(slider.HasValue("sliderImage") ? Umbraco.Media(thumbnailId).Url : "")' class="d-block w-100" height="400px"/ >
                             </div>
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="contents">
-                                    <span class="caption">Editor's Pick</span>
-                                    <h2><a href="@slider.Url">@slider.Title</a></h2>
+                                    <span class="caption">@(slider.HasValue("firstLineText") ? slider.GetPropertyValue("firstLineText") : "Editor's Pick")</span>
+                                    <h2>@*<a href="@slider.Url">@slider.Title</a>*@
+                                        <a href="@Umbraco.TypedContent(Convert.ToInt16(slider.GetPropertyValue("sliderUrl").ToString())).Url">@slider.GetPropertyValue("sliderTitle")</a>
+                                    </h2>
                                     <p class="mb-3" 
                                         style="overflow: hidden; text-overflow: ellipsis;
                                                 display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
-                                        @slider.ShortDescription
+                                       @*@slider.ShortDescription*@
+                                       @slider.GetPropertyValue("shortDescription")
                                     </p>
                                     <div class="post-meta">
                                         <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">Food</a></span>

@@ -1,10 +1,13 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    var template = Model.Content.Site().FirstChild("templateSetting");
+}
 <div class="site-section subscribe bg-light">
     <div class="container">
         <form action="#" class="row align-items-center">
             <div class="col-md-5 mr-auto">
-                <h2>@Model.Content.Site().GetPropertyValue("Title")</h2>
-                <p>@Model.Content.Site().GetPropertyValue("Subtext")</p>
+                <h2>@template.GetPropertyValue("Title")</h2>
+                <p>@template.GetPropertyValue("Subtext")</p>
             </div>
             <div class="col-md-6 ml-auto">
                 <div class="d-flex">

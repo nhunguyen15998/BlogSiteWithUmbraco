@@ -1,10 +1,12 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-
+@{
+    var template = Model.Content.Site().FirstChild("templateSetting");
+}
 <div class="header-top">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-lg-6 d-flex">
-                <p>@Model.Content.Site().GetPropertyValue("logoText")</p>
+                <p>@template.GetPropertyValue("logoText")</p>
                 <a href="#" class="ml-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a>
             </div>
             <div class="col-12 col-lg-6 ml-auto d-flex">
@@ -31,9 +33,9 @@
                     <div class="mr-auto">
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
-                                @foreach(var item in Model.Content.Site().GetPropertyValue<List<IPublishedContent>>("navbar")){
+                                @foreach(var item in template.GetPropertyValue<List<IPublishedContent>>("navbar")){
                                 <li class="active">
-                                    <a href="@item.GetPropertyValue("navbarUrl")" class="nav-link text-left">@item.GetPropertyValue("navbarItemName")</a>
+                                    <a href="@Umbraco.TypedContent(Convert.ToInt16(item.GetPropertyValue("navbarUrl").ToString())).Url" class="nav-link text-left">@item.GetPropertyValue("navbarItemName")</a>
                                 </li>
                                 }
                             </ul>

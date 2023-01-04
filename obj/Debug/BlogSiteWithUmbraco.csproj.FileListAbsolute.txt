@@ -112,3 +112,4 @@ D:\dotnet\umbraco\BlogSiteWithUmbraco\obj\Debug\BlogSiteWithUmbraco.csproj.CoreC
 D:\dotnet\umbraco\BlogSiteWithUmbraco\obj\Debug\BlogSiteWithUmbraco.csproj.CopyComplete
 D:\dotnet\umbraco\BlogSiteWithUmbraco\obj\Debug\BlogSiteWithUmbraco.dll
 D:\dotnet\umbraco\BlogSiteWithUmbraco\obj\Debug\BlogSiteWithUmbraco.pdb
+D:\dotnet\umbraco\BlogSiteWithUmbraco\bin\Our.Umbraco.Ditto.dll

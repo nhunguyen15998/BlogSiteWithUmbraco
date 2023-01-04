@@ -1,11 +1,12 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @using ContentModels = Umbraco.Web.PublishedContentModels;
+@using BlogSiteWithUmbraco.Models;
+@using Our.Umbraco.Ditto;
 @{
     Layout = "MasterLayout.cshtml";
     ViewData["Title"] = "Blog Detail";
-    var blog = Model.Content.Site().FirstChild("blogs").Children("blogItem")
-						.Where(x => x.IsVisible())
-						.Where(x => x.Id == CurrentPage.Id).FirstOrDefault();
+    var blog = Model.Content;
+    var blogModel = Model.Content.As<BlogItemModel>();
 }
 
 <div class="site-section">

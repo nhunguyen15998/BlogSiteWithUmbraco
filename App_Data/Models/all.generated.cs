@@ -8,8 +8,8 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "6c2700e8189e84bb")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.5")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "9821ebe37985f165")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
 // FILE: models.generated.cs
@@ -94,7 +94,7 @@ namespace Umbraco.Web.PublishedContentModels
 
 	/// <summary>Pages</summary>
 	[PublishedContentModel("page")]
-	public partial class Page : PublishedContentModel, IFooter, IHeader, INewsletterItem
+	public partial class Page : PublishedContentModel
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "page";
@@ -125,78 +125,6 @@ namespace Umbraco.Web.PublishedContentModels
 		{
 			get { return this.GetPropertyValue("listPage"); }
 		}
-
-		///<summary>
-		/// Footer Content
-		///</summary>
-		[ImplementPropertyType("footerContent")]
-		public string FooterContent
-		{
-			get { return Umbraco.Web.PublishedContentModels.Footer.GetFooterContent(this); }
-		}
-
-		///<summary>
-		/// Logo Image
-		///</summary>
-		[ImplementPropertyType("logoImage")]
-		public IPublishedContent LogoImage
-		{
-			get { return Umbraco.Web.PublishedContentModels.Header.GetLogoImage(this); }
-		}
-
-		///<summary>
-		/// Logo Text
-		///</summary>
-		[ImplementPropertyType("logoText")]
-		public string LogoText
-		{
-			get { return Umbraco.Web.PublishedContentModels.Header.GetLogoText(this); }
-		}
-
-		///<summary>
-		/// Logo Url
-		///</summary>
-		[ImplementPropertyType("logoUrl")]
-		public IPublishedContent LogoUrl
-		{
-			get { return Umbraco.Web.PublishedContentModels.Header.GetLogoUrl(this); }
-		}
-
-		///<summary>
-		/// Navbar
-		///</summary>
-		[ImplementPropertyType("navbar")]
-		public IEnumerable<IPublishedContent> Navbar
-		{
-			get { return Umbraco.Web.PublishedContentModels.Header.GetNavbar(this); }
-		}
-
-		///<summary>
-		/// Social Medias
-		///</summary>
-		[ImplementPropertyType("socialMedias")]
-		public IEnumerable<IPublishedContent> SocialMedias
-		{
-			get { return Umbraco.Web.PublishedContentModels.Header.GetSocialMedias(this); }
-		}
-
-		///<summary>
-		/// Subtext
-		///</summary>
-		[ImplementPropertyType("subtext")]
-		public string Subtext
-		{
-			get { return Umbraco.Web.PublishedContentModels.NewsletterItem.GetSubtext(this); }
-		}
-
-		///<summary>
-		/// Title
-		///</summary>
-		[ImplementPropertyType("title")]
-		public string Title
-		{
-			get { return Umbraco.Web.PublishedContentModels.NewsletterItem.GetTitle(this); }
-		}
 	}
 
 	/// <summary>Slider Item</summary>
@@ -222,6 +150,51 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<SliderItem, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// First-line text
+		///</summary>
+		[ImplementPropertyType("firstLineText")]
+		public string FirstLineText
+		{
+			get { return this.GetPropertyValue<string>("firstLineText"); }
+		}
+
+		///<summary>
+		/// Short Description
+		///</summary>
+		[ImplementPropertyType("shortDescription")]
+		public string ShortDescription
+		{
+			get { return this.GetPropertyValue<string>("shortDescription"); }
+		}
+
+		///<summary>
+		/// Slider Image
+		///</summary>
+		[ImplementPropertyType("sliderImage")]
+		public IPublishedContent SliderImage
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("sliderImage"); }
+		}
+
+		///<summary>
+		/// Slider Title
+		///</summary>
+		[ImplementPropertyType("sliderTitle")]
+		public string SliderTitle
+		{
+			get { return this.GetPropertyValue<string>("sliderTitle"); }
+		}
+
+		///<summary>
+		/// Slider Url
+		///</summary>
+		[ImplementPropertyType("sliderUrl")]
+		public IPublishedContent SliderUrl
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("sliderUrl"); }
 		}
 	}
 
@@ -315,9 +288,9 @@ namespace Umbraco.Web.PublishedContentModels
 		/// Categories
 		///</summary>
 		[ImplementPropertyType("categories")]
-		public IEnumerable<string> Categories
+		public IEnumerable<IPublishedContent> Categories
 		{
-			get { return this.GetPropertyValue<IEnumerable<string>>("categories"); }
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("categories"); }
 		}
 
 		///<summary>
@@ -755,16 +728,16 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 	}
 
-	/// <summary>Language</summary>
-	[PublishedContentModel("english")]
-	public partial class English : PublishedContentModel
+	/// <summary>Template Setting</summary>
+	[PublishedContentModel("templateSetting")]
+	public partial class TemplateSetting : PublishedContentModel, IFooter, IHeader, INewsletterItem
 	{
 #pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "english";
+		public new const string ModelTypeAlias = "templateSetting";
 		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
 #pragma warning restore 0109
 
-		public English(IPublishedContent content)
+		public TemplateSetting(IPublishedContent content)
 			: base(content)
 		{ }
 
@@ -775,9 +748,81 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 #pragma warning restore 0109
 
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<English, TValue>> selector)
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<TemplateSetting, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Footer Content
+		///</summary>
+		[ImplementPropertyType("footerContent")]
+		public string FooterContent
+		{
+			get { return Umbraco.Web.PublishedContentModels.Footer.GetFooterContent(this); }
+		}
+
+		///<summary>
+		/// Logo Image
+		///</summary>
+		[ImplementPropertyType("logoImage")]
+		public IPublishedContent LogoImage
+		{
+			get { return Umbraco.Web.PublishedContentModels.Header.GetLogoImage(this); }
+		}
+
+		///<summary>
+		/// Logo Text
+		///</summary>
+		[ImplementPropertyType("logoText")]
+		public string LogoText
+		{
+			get { return Umbraco.Web.PublishedContentModels.Header.GetLogoText(this); }
+		}
+
+		///<summary>
+		/// Logo Url
+		///</summary>
+		[ImplementPropertyType("logoUrl")]
+		public IPublishedContent LogoUrl
+		{
+			get { return Umbraco.Web.PublishedContentModels.Header.GetLogoUrl(this); }
+		}
+
+		///<summary>
+		/// Navbar
+		///</summary>
+		[ImplementPropertyType("navbar")]
+		public IEnumerable<IPublishedContent> Navbar
+		{
+			get { return Umbraco.Web.PublishedContentModels.Header.GetNavbar(this); }
+		}
+
+		///<summary>
+		/// Social Medias
+		///</summary>
+		[ImplementPropertyType("socialMedias")]
+		public IEnumerable<IPublishedContent> SocialMedias
+		{
+			get { return Umbraco.Web.PublishedContentModels.Header.GetSocialMedias(this); }
+		}
+
+		///<summary>
+		/// Subtext
+		///</summary>
+		[ImplementPropertyType("subtext")]
+		public string Subtext
+		{
+			get { return Umbraco.Web.PublishedContentModels.NewsletterItem.GetSubtext(this); }
+		}
+
+		///<summary>
+		/// Title
+		///</summary>
+		[ImplementPropertyType("title")]
+		public string Title
+		{
+			get { return Umbraco.Web.PublishedContentModels.NewsletterItem.GetTitle(this); }
 		}
 	}
 
