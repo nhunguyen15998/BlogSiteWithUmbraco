@@ -6,7 +6,7 @@
     Layout = "MasterLayout.cshtml";
     ViewData["Title"] = "Blog Detail";
     var blog = Model.Content;
-    var blogModel = Model.Content.As<BlogItemModel>();
+    var blogModel = blog.As<BlogItemModel>();
 }
 
 <div class="site-section">
