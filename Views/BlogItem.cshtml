@@ -3,7 +3,7 @@
 @using BlogSiteWithUmbraco.Models;
 @using Our.Umbraco.Ditto;
 @{
-    Layout = "MasterLayout.cshtml";
+    Layout = "~/Views/Shared/MasterLayout.cshtml";
     ViewData["Title"] = "Blog Detail";
     var blog = Model.Content;
     var blogModel = blog.As<BlogItemModel>();

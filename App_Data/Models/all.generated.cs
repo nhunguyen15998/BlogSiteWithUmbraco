@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "9821ebe37985f165")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "88225627492a4cb5")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -279,18 +279,18 @@ namespace Umbraco.Web.PublishedContentModels
 		/// Blog Url
 		///</summary>
 		[ImplementPropertyType("blogUrl")]
-		public string BlogUrl
+		public IPublishedContent BlogUrl
 		{
-			get { return this.GetPropertyValue<string>("blogUrl"); }
+			get { return this.GetPropertyValue<IPublishedContent>("blogUrl"); }
 		}
 
 		///<summary>
-		/// Categories
+		/// Category
 		///</summary>
-		[ImplementPropertyType("categories")]
-		public IEnumerable<IPublishedContent> Categories
+		[ImplementPropertyType("category")]
+		public IEnumerable<IPublishedContent> Category
 		{
-			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("categories"); }
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("category"); }
 		}
 
 		///<summary>

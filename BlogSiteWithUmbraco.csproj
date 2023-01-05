@@ -280,6 +280,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Extensions\IntergerExtension.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -3992,7 +3993,7 @@
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2-Fluid.cshtml" />
-    <Content Include="Views\MasterLayout.cshtml" />
+    <Content Include="Views\Shared\MasterLayout.cshtml" />
     <Content Include="Views\BlogItem.cshtml" />
     <Content Include="Views\Contact.cshtml" />
     <Content Include="Views\Home.cshtml" />
@@ -4146,6 +4147,9 @@
     <Content Include="Umbraco\Webservices\TreeDataService.ashx" />
     <Content Include="Umbraco\Xslt\Web.config" />
     <Content Include="Views\Partials\Banner.cshtml" />
+    <Content Include="Views\Partials\BlogLayoutA.cshtml" />
+    <Content Include="Views\Partials\BlogLayoutB.cshtml" />
+    <Content Include="Views\Partials\BlogLayoutC.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
