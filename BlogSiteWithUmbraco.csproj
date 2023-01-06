@@ -280,10 +280,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Extensions\Helpers.cs" />
     <Compile Include="Extensions\IntergerExtension.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BlogCateItemModel.cs" />
     <Compile Include="Models\BlogItemModel.cs" />
     <Compile Include="Models\SliderItemModel.cs" />
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
@@ -4150,6 +4152,8 @@
     <Content Include="Views\Partials\BlogLayoutA.cshtml" />
     <Content Include="Views\Partials\BlogLayoutB.cshtml" />
     <Content Include="Views\Partials\BlogLayoutC.cshtml" />
+    <Content Include="Views\Partials\BlogLayoutByCateA.cshtml" />
+    <Content Include="Views\Partials\BlogLayoutByCateB.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

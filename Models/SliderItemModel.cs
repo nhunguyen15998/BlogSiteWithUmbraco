@@ -10,11 +10,9 @@ namespace BlogSiteWithUmbraco.Models
     public class SliderItemModel
     {
         public int SliderImage { get; set; }
-        public string Url { get; set; }
+        public int SliderUrl { get; set; }
         public string SliderTitle { get; set; }
         public string FirstLineText { get; set; }
         public string ShortDescription { get; set; }
-        public string imageUrl { get; set; }
-
     }
 }

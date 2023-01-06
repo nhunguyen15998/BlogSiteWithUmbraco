@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<BlogSiteWithUmbraco.Models.BlogCateItemModel>
+@using Umbraco.Core.Models;
+@using Our.Umbraco.Ditto;
+@using BlogSiteWithUmbraco.Models;
+
+@{
+    var cate = Model.Id;
+    List<IPublishedContent> listBlog = (List<IPublishedContent>)ViewBag.Blogs;
+}
+<p>@ViewBag.Blogs</p>
+@for (var i = 0; i < listBlog.Count; i++)
+{
+    var blogcates = listBlog[i].GetPropertyValue<List<IPublishedContent>>("category");
+    for (var k = i; k < blogcates.Count; k++)
+    {
+        if (blogcates[k].Id == cate)
+        {
+            var item = listBlog[i].As<BlogItemModel>();
+            <div class="post-entry-2 d-flex">
+                <div class="thumbnail" style="background-image: url('@Umbraco.TypedMedia(item.Thumbnail).Url')"></div>
+                <div class="contents">
+                    <h2><a href="@Umbraco.TypedContent(item.Id).Url">@item.Title</a></h2>
+                    <p class="mb-3 short-description">@item.ShortDescription</p>
+                    <div class="post-meta">
+                        <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
+                        <span class="date-read">Jun 14 <span class="mx-1">•</span> 3 min read <span class="icon-star2"></span></span>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+}

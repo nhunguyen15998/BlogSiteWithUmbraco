@@ -1,8 +1,8 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<BlogSiteWithUmbraco.Models.BlogItemModel>
 
 <div class="post-entry-1">
-    <a href="@Model.BlogUrl"><img src="@Umbraco.Media(Model.Thumbnail).Url" height="300" alt="Image" class="img-fluid"></a>
-    <h2><a href="@Model.BlogUrl">@Model.Title</a></h2>
+    <a href="@Umbraco.TypedContent(Model.Id).Url"><img src="@Umbraco.Media(Model.Thumbnail).Url" height="300" alt="Image" class="img-fluid"></a>
+    <h2><a href="@Umbraco.TypedContent(Model.Id).Url">@Model.Title</a></h2>
     <p>@Model.ShortDescription</p>
     <div class="post-meta">
         <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
