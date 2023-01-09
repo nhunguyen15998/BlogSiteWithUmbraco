@@ -7,11 +7,10 @@
     var cate = Model.Id;
     List<IPublishedContent> listBlog = (List<IPublishedContent>)ViewBag.Blogs;
 }
-<p>@ViewBag.Blogs</p>
 @for (var i = 0; i < listBlog.Count; i++)
 {
     var blogcates = listBlog[i].GetPropertyValue<List<IPublishedContent>>("category");
-    for (var k = i; k < blogcates.Count; k++)
+    for (var k = 0; k < blogcates.Count; k++)
     {
         if (blogcates[k].Id == cate)
         {

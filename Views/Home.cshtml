@@ -15,8 +15,11 @@
     var blogs = Model.Content.Site().FirstChild("blogs").Children("blogItem").Where(x => x.IsVisible()).OrderBy("CreateDate desc").ToList();
     ViewBag.Blogs = blogs;
 
+    var blogbycate = Model.Content.Site().FirstChild("blogs").Children("blogItem");
+    //.Where(x => x.IsVisible() && x.GetPropertyValue("category") == 1206);
     //cates
     var cates = Model.Content.Site().FirstChild("blogCategories").Children("blogCategoryItem").Where(x => x.IsVisible()).ToList();
+
 }
 
 @section BlogLayoutA {
@@ -94,7 +97,7 @@
         <div class="row">
             <!--cates-->
             @foreach (var cate in cates) {
-                <div class="col-lg-6">
+                <div class="col-lg-6 mb-5">
                     @Html.Partial("BlogLayoutByCateA", cate.As<BlogCateItemModel>())
                     @Html.Partial("BlogLayoutByCateB", cate.As<BlogCateItemModel>())
                 </div>
