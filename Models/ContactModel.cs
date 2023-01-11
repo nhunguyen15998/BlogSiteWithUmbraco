@@ -13,8 +13,8 @@ namespace BlogSiteWithUmbraco.Models
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
-        [Required]
-        [EmailAddress]
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Invalid email format")]
         public string Email { get; set; }
         public string Phone { get; set; }
         [Required]

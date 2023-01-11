@@ -2,7 +2,7 @@
 @{
     var CurrentPage = (int)ViewData["CurrentPage"];
 }
-@using (Html.BeginForm("PostContact", "Contact", new { CurrentPage = CurrentPage }, FormMethod.Post))
+@using (Html.BeginUmbracoForm("PostContact", "Contact", new { CurrentPage = CurrentPage }, FormMethod.Post))
 {
     @Html.AntiForgeryToken()
     <div class="row">
@@ -21,7 +21,7 @@
         <div class="col-md-6 form-group">
             <label for="eaddress">Email Address</label>
             @Html.TextBoxFor(m => m.Email, new { @class = "form-control form-control-lg", @id = "email" })
-            @Html.ValidationMessageFor(m => m.Email, "Email is required", new { @class = "text-danger" })
+            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
         </div>
         <div class="col-md-6 form-group">
             <label for="tel">Phone Number</label>

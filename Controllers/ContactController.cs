@@ -21,8 +21,7 @@ namespace BlogSiteWithUmbraco.Controllers
         //{
         //    _entityService = entityService;
         //}
-
-        [HttpGet]
+        [ChildActionOnly]
         public ActionResult GetContact(int CurrentPage)
         {
             ViewData["CurrentPage"] = CurrentPage;
@@ -43,12 +42,10 @@ namespace BlogSiteWithUmbraco.Controllers
                 contact.SetValue("phone", contactModel.Phone);
                 contact.SetValue("email", contactModel.Email);
                 contact.SetValue("message", contactModel.Message);
-                Services.ContentService.SaveAndPublishWithStatus(contact);
+                Services.ContentService.Save(contact);
+                return RedirectToCurrentUmbracoPage();
             }
-            ViewData["CurrentPage"] = CurrentPage;
-            //return RedirectToUmbracoPage(CurrentPage);
-            
-            return View("~/Views/Contact.cshtml", contactModel);
+            return CurrentUmbracoPage();
         }
 
     }
