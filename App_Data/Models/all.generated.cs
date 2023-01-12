@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "f850666dc3c08b2a")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "e96c74586afb826a")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -912,6 +912,209 @@ namespace Umbraco.Web.PublishedContentModels
 		public string Status
 		{
 			get { return this.GetPropertyValue<string>("status"); }
+		}
+	}
+
+	/// <summary>Products</summary>
+	[PublishedContentModel("product")]
+	public partial class Product : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "product";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Product(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Product, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+	}
+
+	/// <summary>Product Item</summary>
+	[PublishedContentModel("productItem")]
+	public partial class ProductItem : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "productItem";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public ProductItem(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<ProductItem, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Detail Description
+		///</summary>
+		[ImplementPropertyType("detailDescription")]
+		public IHtmlString DetailDescription
+		{
+			get { return this.GetPropertyValue<IHtmlString>("detailDescription"); }
+		}
+
+		///<summary>
+		/// Discount Percent
+		///</summary>
+		[ImplementPropertyType("discountPercent")]
+		public int DiscountPercent
+		{
+			get { return this.GetPropertyValue<int>("discountPercent"); }
+		}
+
+		///<summary>
+		/// Discount Price
+		///</summary>
+		[ImplementPropertyType("discountPrice")]
+		public int DiscountPrice
+		{
+			get { return this.GetPropertyValue<int>("discountPrice"); }
+		}
+
+		///<summary>
+		/// Image Collection
+		///</summary>
+		[ImplementPropertyType("imageCollection")]
+		public IEnumerable<IPublishedContent> ImageCollection
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("imageCollection"); }
+		}
+
+		///<summary>
+		/// Price
+		///</summary>
+		[ImplementPropertyType("price")]
+		public int Price
+		{
+			get { return this.GetPropertyValue<int>("price"); }
+		}
+
+		///<summary>
+		/// Product Categories
+		///</summary>
+		[ImplementPropertyType("productCategories")]
+		public IEnumerable<IPublishedContent> ProductCategories
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("productCategories"); }
+		}
+
+		///<summary>
+		/// Product Name
+		///</summary>
+		[ImplementPropertyType("productName")]
+		public string ProductName
+		{
+			get { return this.GetPropertyValue<string>("productName"); }
+		}
+
+		///<summary>
+		/// Quantity
+		///</summary>
+		[ImplementPropertyType("quantity")]
+		public int Quantity
+		{
+			get { return this.GetPropertyValue<int>("quantity"); }
+		}
+
+		///<summary>
+		/// Short Description
+		///</summary>
+		[ImplementPropertyType("shortDescription")]
+		public string ShortDescription
+		{
+			get { return this.GetPropertyValue<string>("shortDescription"); }
+		}
+
+		///<summary>
+		/// Thumbnail
+		///</summary>
+		[ImplementPropertyType("thumbnail")]
+		public IPublishedContent Thumbnail
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("thumbnail"); }
+		}
+	}
+
+	/// <summary>Product Category Item</summary>
+	[PublishedContentModel("productCategoryItem")]
+	public partial class ProductCategoryItem : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "productCategoryItem";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public ProductCategoryItem(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<ProductCategoryItem, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Product Category Name
+		///</summary>
+		[ImplementPropertyType("productCategoryName")]
+		public string ProductCategoryName
+		{
+			get { return this.GetPropertyValue<string>("productCategoryName"); }
+		}
+	}
+
+	/// <summary>Product Categories</summary>
+	[PublishedContentModel("productCategories")]
+	public partial class ProductCategories : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "productCategories";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public ProductCategories(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<ProductCategories, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
 	}
 
